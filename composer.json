@@ -1,0 +1,28 @@
+{
+    "name"             : "rbm/php-admin",
+    "description"      : "admin",
+    "authors"          : [
+        {
+            "name" : "Romain Bessuges",
+            "email": "romain@exaprint.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require"          : {
+        "php"             : ">=5.4.0",
+        "rbm/php-datagrid": "*",
+        "romainbessugesmeusy/php-sql-query": "*"
+    },
+    "require-dev"   : {
+        "exaprint/php-dal": "*"
+    },
+    "autoload": {
+        "psr-0": { "RBM": "library/." }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url" : "https://github.com/exaprint/php-dal"
+        }
+    ]
+}
